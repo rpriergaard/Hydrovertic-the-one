@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt os | Kontakt</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="burger.js " charset="utf-8" defer></script>
+  <script src="searchbar.js " charset="utf-8" defer></script>
+  <script src="dropdown.js" charset="utf-8" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.typekit.net/qvb6sdq.css">
+</head>
+
+<body>
+  <header class="large-screen">
+    <div class="menu-container">
+      <a href="eksamen-menubar.html"><img src="img/hydrovertic-logo.png" alt="logo" class="logo"></a>
+      <a style="text-decoration: none" href="forside.html">
+        <h2 class="menu-h2">Hjem</h2>
+      </a>
+      <a style="text-decoration: none" href="teknologi.html">
+        <h2 class="menu-h2">Teknologi</h2>
+      </a>
+      <a style="text-decoration: none" href="presse.html">
+        <h2 class="menu-h2">Presse</h2>
+      </a>
+      <a style="text-decoration: none" href="ommig.html">
+        <h2 class="menu-h2">Om os</h2>
+      </a>
+      <a style="text-decoration: none" href="kontakt.html">
+        <h2 class="menu-h2">Kontakt os</h2>
+      </a>
+      <div class="bar">
+        <div class="bar-indhold">
+          <form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:270px;">
+              <input id="eventsInput" type="text" name="myEvents" placeholder="Søg">
+            </div>
+          </form>
+        </div>
+      </div>
+  </header>
+
+  <div class="small-screen">
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="forside.html" class="active"><img src="img/hydrovertic sort.png" alt="logo"></a>
+        <div id="myLinks">
+          <a href="forside.html">Hjem</a>
+          <a href="teknologi.html">Teknologi</a>
+          <a href="presse.html">Presse</a>
+          <a href="ommig.html">Om os</a>
+          <a href="kontakt.html">Kontakt os</a>
+          <div class="some-icons">
+            <img src="img/facebook.png" alt="fb">
+            <img src="img/instagram.png" alt="ig">
+            <img src="img/linkedin.png" alt="li">
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="container-info">
+    <div class="container sideopdeling">
+      <div class="kontakt-info">
+        <div>
+          <h1>Kontaktformular</h1>
+          <p><strong>Mail:</strong> contact@hydrovertic.com </p>
+          <p><strong>Tlf:</strong> 29 27 69 09</p>
+          <p>Rudmevej 101, 5750 Rudme</p>
+          <p>Cortex Park 26, 5230 Odense M</p>
+        </div>
+
+        <div class="ikon-kasse-kontakt">
+          <img src="img/instagram.png" alt="ikon af instagram">
+          <img src="img/facebook.png" alt="ikon af facebook">
+          <img src="img/linkedin.png" alt="ikon af linkedin">
+        </div>
+      </div>
+
+      <div class="kontaktformularen">
+        <h2>Skriv til os her!</h2>
+        <form action="/action_page.php">
+          <input type="text" id="fname" name="firstname" placeholder="Navn her...">
+
+          <input type="text" id="lname" name="mail" placeholder="@email her...">
+
+          <!-- Dropdown -->
+          <select id="subject">
+            <option value="vaelg-emne">Vælg emne</option>
+            <option value="generelt">Generelt</option>
+            <option value="teknologi">Teknologi</option>
+            <option value="presse">Presse</option>
+            <option value="om-os">Om os</option>
+          </select>
+          <!-- Dropdown slut -->
+
+
+          <textarea id="Write" name="Write" placeholder="Skriv her..." style="height:200px"></textarea>
+
+          <button type="submit" name="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="qanda">
+      <h2>Q&A</h2>
+      <h3>Skal vertikalt landbrug erstatte traditionelt landbrug?</h3>
+      <p>Nej. Vertikalt landbrug, hydroponi og vertikalt landbrug skal eksistere i samspil.</p>
+      <h3>Kan alle afgrødre gros vertikalt?</h3>
+      <p>Nej. Vertikalt er bedst til kortere afgrødre, der kun skal høstes en gang.</p>
+      <h3>Kan jeres system betjenes af ikke-gartnere?</h3>
+      <p>Ja, vores system er designet til at være intuitivt at bruge og automatiseringen tilpasses brugerens nivau.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="ikon-kasse">
+        <div class="billede1">
+          <img src="img/facebook.png" alt="ikon af facebook">
+        </div>
+        <div class="billede2">
+          <img src="img/instagram.png" alt="ikon af instagram">
+        </div>
+        <div class="billede3">
+          <img src="img/linkedin.png" alt="ikon af linkedin">
+        </div>
+      </div>
+
+      <div class="footer-text">
+        <p>Mail: contact@hydrovertic.com</p>
+        <p>Tlf: 29 27 69 09</p>
+        <p>Rudmevej 101, 5750 Rudme</p>
+        <p>Cortex Park 26, 5230 Odense M</p>
+      </div>
+      <div class="cvr-text">
+        <p>CVR: 41983337</p>
+        <p>© 2020-2022 Hydrovertic. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
