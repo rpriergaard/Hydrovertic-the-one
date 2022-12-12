@@ -9,8 +9,5 @@ for (var i = 0; i < option.length; i++) {
   select.appendChild(el);
 }
 
-<
-select id = "subject" >
-  <
-  option > Vælg emne < /option> <
-  /select>
+<select id = "subject" >
+<option > Vælg emne < /option> </select>
