@@ -410,18 +410,6 @@ textarea {
 
 /* Dropdown slut */
 
-button {
-  background-color: #C41F97;
-  color: #F1F1F1;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #C41F97A6;
-}
 
 .qanda {
   align-items: center;
@@ -1269,10 +1257,14 @@ button:hover {
   /*presse*/
   .nyhed h1 {
     text-align: left;
+    margin-right: 125px;
+    margin-left: 125px;
   }
 
   .nyhed p {
     text-align: left;
+    margin-right: 125px;
+    margin-left: 125px;
   }
 
   .presse-kasser {
@@ -1481,28 +1473,35 @@ button:hover {
     margin-left: 125px;
   }
 
-  /* Teknolgi */
-
+  /* Teknologi */
+  
   .info-text h1 {
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding-top: 20px;
   }
 
   .info-text p {
+    margin-right: 125px;
+    margin-left: 125px;
     text-align: left;
   }
 
   .facts h2 {
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .facts p {
     text-align: left;
   }
 
+  .facts {
+    margin-right: 125px;
+    margin-left: 125px;
+    padding-bottom: 60px;
+  }
 
   /* footer */
 
