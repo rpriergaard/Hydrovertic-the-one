@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kontakt os | Kontakt</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="popup.css">
   <script src="burger.js " charset="utf-8" defer></script>
   <script src="searchbar.js " charset="utf-8" defer></script>
   <script src="dropdown.js" charset="utf-8" defer></script>
+  <script src="popup.js" charset="utf-8" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/qvb6sdq.css">
 </head>
@@ -89,7 +91,6 @@
 
       <div class="kontaktformularen">
         <h2>Skriv til os her!</h2>
-        <form action="/action_page.php">
           <input type="text" id="fname" name="firstname" placeholder="Navn her...">
 
           <input type="text" id="lname" name="mail" placeholder="@email her...">
@@ -107,8 +108,19 @@
 
           <textarea id="Write" name="Write" placeholder="Skriv her..." style="height:200px"></textarea>
 
-          <button type="submit" name="button">Send</button>
-        </form>
+          <!-- Trigger/Open The Modal -->
+          <button class="mybtn" id="myBtn">Send</button>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2> Tak for beskeden <h2>
+                  <p>Vi vender tilbage til dig så hurtigt som muligt!</p>
+            </div>
+          </div>
       </div>
     </div>
   </section>

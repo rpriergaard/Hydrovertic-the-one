@@ -10,4 +10,4 @@ for (var i = 0; i < option.length; i++) {
 }
 
 <select id = "subject" >
-<option > Vælg emne < /option> </select>
+<option > Vælg emne </option> </select>
