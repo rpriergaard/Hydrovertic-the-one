@@ -98,7 +98,7 @@ input[type=text] {
 
 input[type=submit] {
   background-color: #1A444D;
-  color: #fff;
+  color: #f1f1f1;
 }
 
 .autocomplete-items {
@@ -419,12 +419,7 @@ textarea {
   padding: 40px;
 }
 
-
 /* Om os */
-.slideshow-container {
-  padding-right: 40px;
-}
-
 .slide-img img {
   max-width: 100%;
 }
@@ -1219,7 +1214,7 @@ textarea {
     padding: 0;
     padding-top: 40px;
     padding-bottom: 60px;
- 
+
   }
 
   .system-titel h2 {

@@ -60,4 +60,8 @@ img {
     content-visibility: hidden;
   }
 
+  .slideshow-container {
+    padding-right: 40px;
+  }
+
 }
