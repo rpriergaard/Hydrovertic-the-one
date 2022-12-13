@@ -218,6 +218,7 @@ nav {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: px;
 }
 
 .knap-forside:hover {
@@ -1487,7 +1488,7 @@ textarea {
   }
 
   /* Teknologi */
-  
+
   .info-text h1 {
     text-align: left;
     margin-right: 125px;
