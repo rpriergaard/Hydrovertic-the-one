@@ -433,10 +433,6 @@ button:hover {
 
 
 /* Om os */
-.slideshow-container {
-  padding-right: 40px;
-}
-
 .slide-img img {
   max-width: 100%;
 }
@@ -1231,7 +1227,7 @@ button:hover {
     padding: 0;
     padding-top: 40px;
     padding-bottom: 60px;
- 
+
   }
 
   .system-titel h2 {
