@@ -432,6 +432,10 @@ button:hover {
 }
 
 /* Om os */
+.slideshow-container {
+  padding-right: 40px;
+}
+
 .slide-img img {
   max-width: 100%;
 }
@@ -1184,7 +1188,6 @@ button:hover {
 
   /* Forside */
   .banner {
-    display: flex;
     justify-content: space-between;
     flex-direction: row;
     background-color: #BFE493;
@@ -1196,17 +1199,8 @@ button:hover {
 
   .knap-forside {
     width: 250px;
-    background-color: #C41F97;
-    color: #F1F1F1;
     padding: 12px 30px;
-    border: none;
-    border-radius: 4px;
     margin-left: 20px;
-    cursor: pointer;
-  }
-
-  .knap-forside:hover {
-    background-color: #C41F97A6;
   }
 
   .titel-alt {
@@ -1233,19 +1227,14 @@ button:hover {
   }
 
   .vores-system {
-    display: flex;
-    align-items: flex-start;
-    background-color: #F1F1F1;
-    padding: 40px;
-    padding-left: 100px;
-    padding-top: 10px;
+    padding: 0;
+    padding-top: 40px;
     padding-bottom: 60px;
+ 
   }
 
   .system-titel h2 {
     padding-bottom: 20px;
-    display: flex;
-    align-items: flex-start;
     text-align: left;
   }
 
@@ -1255,35 +1244,21 @@ button:hover {
 
   .system-stor-img img {
     content-visibility: visible;
-    display: flex;
     padding-left: 100px;
     width: 1200px;
     height: auto;
+    display: inline-block;
+    padding-bottom: 60px;
   }
 
-  .hydroponi-slide {
-    height: 441px;
-    background-color: #BFE493;
-  }
 
   .trustpilot {
-    height: 169px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
     margin-top: 60px;
     margin-bottom: 100px;
   }
 
   .situationstegn1 {
     padding-right: 640px;
-    padding-bottom: 0px;
-  }
-
-  .anmeldelse {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .situationstegn2 {
