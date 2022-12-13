@@ -75,7 +75,7 @@
   @media only screen and (min-width: 1024px) {
     /* For desktop: */
     .slider{
-      height: 600px;
+      height: 800px;
     }
 
     .slider h2{
@@ -93,5 +93,12 @@
 
     .slide p{
       text-align: left;
+    }
+  }
+
+  @media only screen and (min-width: 1600px) {
+    /* For desktop: */
+    .slider{
+      height: 600px;
     }
   }
