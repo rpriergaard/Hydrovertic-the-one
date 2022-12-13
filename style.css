@@ -60,6 +60,8 @@ p {
   padding-top: 18px;
   padding-left: 20px;
   padding-right: 50px;
+  width: 368px;
+  height: auto;
 }
 
 .menu-h2 {
@@ -216,6 +218,7 @@ nav {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: px;
 }
 
 .knap-forside:hover {
@@ -1356,11 +1359,22 @@ textarea {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    padding-left: 125px;
     padding-right: 125px;
     padding-top: 40px;
     background: #BFE493;
     margin-top: 40px;
+  }
+
+  .qanda h2{
+    margin-left: 125px;
+  }
+
+  .qanda h3{
+    margin-left: 125px;
+  }
+
+  .qanda p{
+    margin-left: 125px;
   }
 
   /*om os*/
@@ -1474,7 +1488,7 @@ textarea {
   }
 
   /* Teknologi */
-  
+
   .info-text h1 {
     text-align: left;
     margin-right: 125px;
@@ -1491,15 +1505,17 @@ textarea {
 
   .facts h2 {
     text-align: left;
+    margin-left: 125px;
   }
 
   .facts p {
     text-align: left;
+    margin-left: 125px;
   }
 
   .facts {
     margin-right: 125px;
-    margin-left: 125px;
+
     padding-bottom: 60px;
   }
 
