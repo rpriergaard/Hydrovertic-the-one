@@ -433,6 +433,10 @@ button:hover {
 
 
 /* Om os */
+.slideshow-container {
+  padding-right: 40px;
+}
+
 .slide-img img {
   max-width: 100%;
 }
