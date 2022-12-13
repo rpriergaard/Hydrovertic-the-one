@@ -1504,11 +1504,19 @@ textarea {
   }
 
   /* footer */
+  .footer-text {
+    padding-left: 0;
+  }
 
   .footer {
     padding-left: 125px;
     padding-right: 125px;
     padding-top: 30px;
+    margin-left: 0;
+  }
+
+  .ikon-kasse{
+    padding-right: 0;
   }
 
   .billede1 {
@@ -1521,6 +1529,9 @@ textarea {
 
   .billede3 {
     padding: 20px;
+    padding-right: 0;
   }
+
+
 
 }
