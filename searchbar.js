@@ -1,4 +1,4 @@
-// søgefelt//
+// søgefelt (array)//
 var events = ["Vores system", "Kontakt os", "Hydroponi", "Om os", "FN´s verndesmål", "Partnere", "Nyheder", "Teknologi", "Kemikalier", "Natur", "Vand"];
 
 
@@ -21,6 +21,7 @@ function autocomplete(inp, arr) {
     /*Sætter tidligere DIV element som child af søgefeltet så det ikke erstatter:*/
     this.parentNode.appendChild(a);
     /*sørger for at alle childs af arrayet kommer med*/
+    //loop
     for (i = 0; i < arr.length; i++) {
       /*tjekker om eventet har samme forbogstav som det man søger på:*/
       if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
