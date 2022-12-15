@@ -6,7 +6,11 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< Updated upstream
   background-color: #f1f1f1;
+=======
+  background-color: #FAF9F6;
+>>>>>>> Stashed changes
   height: 100vh;
   font-family: "Proxima Nova";
 }
@@ -85,7 +89,7 @@ p {
 
 input {
   border: 1px solid transparent;
-  background-color: #f1f1f1;
+  background-color: #FAF9F6;
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -94,13 +98,13 @@ input {
 }
 
 input[type=text] {
-  background-color: #f1f1f1;
+  background-color: #FAF9F6;
   width: 100%;
 }
 
 input[type=submit] {
   background-color: #1A444D;
-  color: #f1f1f1;
+  color: #FAF9F6;
 }
 
 .autocomplete-items {
@@ -118,7 +122,11 @@ input[type=submit] {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
+<<<<<<< Updated upstream
   background-color: #f1f1f1;
+=======
+  background-color: #FAF9F6;
+>>>>>>> Stashed changes
   border-bottom: 1px solid #d4d4d4;
 }
 
@@ -130,13 +138,21 @@ input[type=submit] {
 .autocomplete-active {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
+<<<<<<< Updated upstream
   color: #f1f1f1;
+=======
+  color: #FAF9F6;
+>>>>>>> Stashed changes
 }
 
 /* Search bar */
 
 header {
+<<<<<<< Updated upstream
   background: #f1f1f1;
+=======
+  background: #FAF9F6;
+>>>>>>> Stashed changes
 }
 
 nav {
@@ -194,7 +210,11 @@ nav {
 }
 
 .active {
+<<<<<<< Updated upstream
   background-color: #f1f1f1;
+=======
+  background-color: #FAF9F6;
+>>>>>>> Stashed changes
   color: #437331;
 }
 
@@ -213,7 +233,7 @@ nav {
 
 .knap-forside {
   background-color: #C41F97;
-  color: #F1F1F1;
+  color: #FAF9F6;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
@@ -251,7 +271,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #F1F1F1;
+  background-color: #FAF9F6;
   padding: 40px;
   padding-top: 10px;
   padding-bottom: 60px;
@@ -511,7 +531,7 @@ nav {
 
 .knap {
   background-color: #C41F97;
-  color: #F1F1F1;
+  color: #FAF9F6;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
@@ -641,7 +661,7 @@ nav {
 
 .knap-om-os {
   background-color: #C41F97;
-  color: #F1F1F1;
+  color: #FAF9F6;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
@@ -709,12 +729,20 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+<<<<<<< Updated upstream
   background-color: #F1F1F1;
+=======
+  background-color: #FAF9F6;
+>>>>>>> Stashed changes
 }
 
 /* Dropdown */
 #subject {
+<<<<<<< Updated upstream
   background-color: #F1F1F1;
+=======
+  background-color: #FAF9F6;
+>>>>>>> Stashed changes
   color: #3C3C3C;
   padding: 12px;
   border: 1px solid #DAF3C5;
@@ -906,7 +934,6 @@ textarea {
 
   .del-1 {
     display: flex;
-    margin: -100px;
     align-items: center;
     justify-content: center;
     gap: 75px;
@@ -1008,7 +1035,11 @@ textarea {
 
   .knap {
     background-color: #C41F97;
+<<<<<<< Updated upstream
     color: #F1F1F1;
+=======
+    color: #FAF9F6;
+>>>>>>> Stashed changes
     padding: 12px 30px;
     border: none;
     border-radius: 4px;
@@ -1309,7 +1340,7 @@ textarea {
 
   .knap {
     background-color: #C41F97;
-    color: #F1F1F1;
+    color: #FAF9F6;
     padding: 12px 30px;
     border: none;
     border-radius: 4px;
@@ -1518,7 +1549,10 @@ textarea {
     padding: 20px;
     padding-right: 0;
   }
+<<<<<<< Updated upstream
 
 
 
+=======
+>>>>>>> Stashed changes
 }
