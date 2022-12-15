@@ -1,103 +1,106 @@
 /* image slider/carousel */
 .slider {
-    width: 100%;
-    max-width: 100%;
-    height: 600px;
-    position: relative;
-    overflow: hidden;
-    background-color: #BFE493;
-  }
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  background-color: #BFE493;
+}
 
-  .slider h2{
-    padding-top: 40px;
-    margin: 20px;
-  }
-  
-  .slide {
-    width: 100%;
-    max-width: 100%;
-    height: 450px;
-    position: absolute;
-    transition: all 0.5s;
-    padding-right: 70px;
-    padding-left: 70px;
-    padding-bottom: 0;
-    padding-top: 20px;
-    background-color: #BFE493;
-  }
+.slider h2 {
+  padding-top: 40px;
+  margin: 20px;
+}
 
-  .slide-icons{
-    width: 55px;
-    height: 55px;
-  }
-  
-  .btn {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
-    z-index: 10px;
-    cursor: pointer;
-    background-color: #BFE493;
-    font-size: 18px;
-    color: #fff;
-    overflow: hidden;
-  }
-  
-  .btn:active {
-    transform: scale(1.1);
-  }
-  
-  .btn-prev {
-    top: 45%;
-    left: 2%;
-  }
-  
-  .btn-next {
-    top: 45%;
-    right: 2%;
-  }
+.slide {
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  position: absolute;
+  transition: all 0.5s;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-bottom: 0;
+  padding-top: 20px;
+  background-color: #BFE493;
+}
 
-  @media only screen and (min-width: 768px) {
-    /* For tablets: */
-  .slider{
+.slide-icons {
+  width: 55px;
+  height: 55px;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #BFE493;
+  font-size: 18px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For tablets: */
+  .slider {
     height: 800px;
   }
 
-    .slide {
-      max-width: 50%;
-    }
+  .slide {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  /* For desktop: */
+  .slider {
+    height: 800px;
   }
 
-  @media only screen and (min-width: 1024px) {
-    /* For desktop: */
-    .slider{
-      height: 800px;
-    }
-
-    .slider h2{
-      margin-left: 125px;
-      text-align: left;
-    }  
-
-    .slide {
-      max-width: 33.33%;
-    }
-
-    .slide h3{
-      text-align: left;
-    }
-
-    .slide p{
-      text-align: left;
-    }
+  .slider h2 {
+    margin-left: 125px;
+    text-align: left;
   }
 
-  @media only screen and (min-width: 1600px) {
-    /* For desktop: */
-    .slider{
-      height: 600px;
-    }
+  .slide {
+    max-width: 33.33%;
   }
+
+  .slide h3 {
+    text-align: left;
+  }
+
+  .slide p {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+
+  /* For desktop: */
+  .slider {
+    height: 600px;
+  }
+}

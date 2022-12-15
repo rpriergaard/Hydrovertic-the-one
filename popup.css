@@ -1,32 +1,40 @@
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
   color: #FAF9F6;
 }
 
 
-  .mybtn {
-    background-color: #C41F97;
-    color: #FAF9F6;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .mybtn:hover {
-    background-color: #C41F97A6;
-  }
-  
+.mybtn {
+  background-color: #C41F97;
+  color: #FAF9F6;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mybtn:hover {
+  background-color: #C41F97A6;
+}
+
 
 /* Modal Content */
 .modal-content {
@@ -36,16 +44,16 @@
   padding: 25px;
   border: 1px solid #3C3C3C;
   width: 40%;
-  height: 40%; 
+  height: 40%;
 }
 
-.modal-content h2{
+.modal-content h2 {
   text-align: center;
   padding-top: 60px;
 }
 
 
-.modal-content p{
+.modal-content p {
   text-align: center;
 }
 
