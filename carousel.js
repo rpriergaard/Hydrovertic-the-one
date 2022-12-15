@@ -12,7 +12,7 @@ const nextSlide = document.querySelector(".btn-next");
 
 // current slide counter
 let curSlide = 0;
-// maximum number of slides, og så finder functionen og eventlisteneren nedenunder ud af hvor mange slides der skal være efter
+// maximum number of slides, og så finder functionen og eventlisteneren nedenunder ud af hvor mange slides der skal være efter skærmens størrelse
 let maxSlide;
 // get window size
 let windowSize = window.innerWidth;
