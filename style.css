@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #f1f1f1;
   height: 100vh;
   font-family: "Proxima Nova";
 }
@@ -118,7 +118,7 @@ input[type=submit] {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #f1f1f1;
   border-bottom: 1px solid #d4d4d4;
 }
 
@@ -130,13 +130,13 @@ input[type=submit] {
 .autocomplete-active {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
-  color: #ffffff;
+  color: #f1f1f1;
 }
 
 /* Search bar */
 
 header {
-  background: #FFFFFF;
+  background: #f1f1f1;
 }
 
 nav {
@@ -194,7 +194,7 @@ nav {
 }
 
 .active {
-  background-color: #fff;
+  background-color: #f1f1f1;
   color: #437331;
 }
 
@@ -799,9 +799,7 @@ textarea {
 
   p {
     font-size: 1.25rem;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
+
   }
 
 
@@ -813,7 +811,6 @@ textarea {
 
   .some-icons img {
     width: 65px;
-    height: auto;
   }
 
   .some-icons {
@@ -825,12 +822,6 @@ textarea {
   }
 
   /* forside */
-  .banner {
-    padding: 40px;
-    padding-top: 20px;
-    padding-bottom: 60px;
-  }
-
   .knap-forside {
     padding: 20px 44px;
     font-size: 24px;
@@ -854,60 +845,11 @@ textarea {
   }
 
   .anmeldelse {
-    padding-top: 0px;
-    padding-bottom: 0px;
     margin-right: 25%;
     margin-left: 25%;
   }
 
-  /* Presse */
-  /* Presse */
-
-  .presse-kasser h2 {
-    margin: 10px;
-  }
-
-  .presse-kasser {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-  }
-
-  .presse-kasse {
-    background-color: #DAF3C5;
-    padding: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-
-  .presse-kasser>div {
-    background-color: #DAF3C5;
-    padding: 30px 10px;
-  }
-
-  .presse-kasse.alt {
-    background-color: #C6E39C;
-  }
-
-  .knap {
-    background-color: #C41F97;
-    color: #F1F1F1;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 28%;
-    margin-left: 28%;
-  }
-
-  .knap:hover {
-    background-color: #C41F97A6;
-  }
-
   /* Teknologi */
-
   .process {
     height: 2400px;
     padding-top: 60px;
@@ -1035,6 +977,51 @@ textarea {
     max-width: 300px;
   }
 
+  /* Presse */
+  .presse-kasser h2 {
+    margin: 10px;
+  }
+
+  .presse-kasser {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+
+  .presse-kasse {
+    background-color: #DAF3C5;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .presse-kasser>div {
+    background-color: #DAF3C5;
+    padding: 30px 10px;
+  }
+
+  .presse-kasse.alt {
+    background-color: #C6E39C;
+  }
+
+  .knap {
+    background-color: #C41F97;
+    color: #F1F1F1;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 28%;
+    margin-left: 28%;
+  }
+
+  .knap:hover {
+    background-color: #C41F97A6;
+  }
+
+
   /* Om os */
 
   .tekst-om-os {
@@ -1138,27 +1125,11 @@ textarea {
 
   /* Presse */
   h1 {
-    font-size: 3.125rem;
     margin-top: 20px;
     margin: 20px;
   }
 
-  h2 {
-    font-size: 2.125rem;
-  }
-
-  h3 {
-    font-size: 1.563rem;
-    margin: 20px;
-  }
-
-  h4 {
-    font-size: 1.563rem;
-    margin: 20px;
-  }
-
   p {
-    font-size: 1.25rem;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
@@ -1256,6 +1227,37 @@ textarea {
   .trustpilot-img img {
     width: 150px;
     height: auto;
+  }
+
+  /* Teknologi */
+  .info-text h1 {
+    text-align: left;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .info-text p {
+    margin-right: 125px;
+    margin-left: 125px;
+    text-align: left;
+  }
+
+  .facts h2 {
+    text-align: left;
+    margin-left: 125px;
+  }
+
+  .facts p {
+    text-align: left;
+    margin-left: 125px;
+  }
+
+  .facts {
+    margin-right: 125px;
+
+    padding-bottom: 60px;
   }
 
   /*presse*/
@@ -1366,15 +1368,15 @@ textarea {
     margin-top: 40px;
   }
 
-  .qanda h2{
+  .qanda h2 {
     margin-left: 125px;
   }
 
-  .qanda h3{
+  .qanda h3 {
     margin-left: 125px;
   }
 
-  .qanda p{
+  .qanda p {
     margin-left: 125px;
   }
 
@@ -1488,38 +1490,6 @@ textarea {
     margin-left: 125px;
   }
 
-  /* Teknologi */
-
-  .info-text h1 {
-    text-align: left;
-    margin-right: 125px;
-    margin-left: 125px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-  }
-
-  .info-text p {
-    margin-right: 125px;
-    margin-left: 125px;
-    text-align: left;
-  }
-
-  .facts h2 {
-    text-align: left;
-    margin-left: 125px;
-  }
-
-  .facts p {
-    text-align: left;
-    margin-left: 125px;
-  }
-
-  .facts {
-    margin-right: 125px;
-
-    padding-bottom: 60px;
-  }
-
   /* footer */
   .footer-text {
     padding-left: 0;
@@ -1532,7 +1502,7 @@ textarea {
     margin-left: 0;
   }
 
-  .ikon-kasse{
+  .ikon-kasse {
     padding-right: 0;
   }
 
