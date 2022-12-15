@@ -1463,7 +1463,7 @@ textarea {
   .fn2 img {
     width: 290px;
     height: auto;
-    margin-right: 100px;
+    margin-right: 0;
   }
 
   .call h2 {
