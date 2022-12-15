@@ -10,13 +10,13 @@
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  color: #E4F1F1;
+  color: #FAF9F6;
 }
 
 
   .mybtn {
     background-color: #C41F97;
-    color: #F1F1F1;
+    color: #FAF9F6;
     padding: 12px 30px;
     border: none;
     border-radius: 4px;

@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #FAF9F6;
   height: 100vh;
   font-family: "Proxima Nova";
 }
@@ -85,7 +85,7 @@ p {
 
 input {
   border: 1px solid transparent;
-  background-color: #f1f1f1;
+  background-color: #FAF9F6;
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -94,13 +94,13 @@ input {
 }
 
 input[type=text] {
-  background-color: #f1f1f1;
+  background-color: #FAF9F6;
   width: 100%;
 }
 
 input[type=submit] {
   background-color: #1A444D;
-  color: #f1f1f1;
+  color: #FAF9F6;
 }
 
 .autocomplete-items {
@@ -118,7 +118,7 @@ input[type=submit] {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #FAF9F6;
   border-bottom: 1px solid #d4d4d4;
 }
 
@@ -130,13 +130,13 @@ input[type=submit] {
 .autocomplete-active {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
-  color: #ffffff;
+  color: #FAF9F6;
 }
 
 /* Search bar */
 
 header {
-  background: #FFFFFF;
+  background: #FAF9F6;
 }
 
 nav {
@@ -194,7 +194,7 @@ nav {
 }
 
 .active {
-  background-color: #fff;
+  background-color: #FAF9F6;
   color: #437331;
 }
 
@@ -213,7 +213,7 @@ nav {
 
 .knap-forside {
   background-color: #C41F97;
-  color: #F1F1F1;
+  color: #FAF9F6;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
@@ -251,7 +251,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #F1F1F1;
+  background-color: #FAF9F6;
   padding: 40px;
   padding-top: 10px;
   padding-bottom: 60px;
@@ -289,280 +289,6 @@ nav {
 
 .situationstegn2 {
   padding-left: 280px;
-}
-
-/* Presse */
-
-.nyhed {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  padding-top: 20px;
-}
-
-
-.presse-kasser p {
-  content-visibility: hidden;
-}
-
-.presse-kasser {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.presse-kasser h2 {
-  margin: 10px;
-}
-
-.presse-kasser {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.presse-kasse {
-  background-color: #DAF3C5;
-  padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100%;
-}
-
-.presse-kasser>div {
-  background-color: #DAF3C5;
-  padding: 30px 10px;
-}
-
-.presse-kasse.alt {
-  background-color: #C6E39C;
-}
-
-.knap {
-  background-color: #C41F97;
-  color: #F1F1F1;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  margin-right: 28%;
-  margin-left: 28%;
-}
-
-.knap:hover {
-  background-color: #C41F97A6;
-}
-
-/* Kontakt os */
-
-.kontakt-info {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.ikon-kasse-kontakt {
-  justify-content: center;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.ikon-kasse-kontakt img {
-  width: 45px;
-  height: auto;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.kontaktformularen {
-  background-color: #BFE493;
-  padding: 40px;
-}
-
-input[type=text],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #DAF3C5;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  background-color: #F1F1F1;
-}
-
-/* Dropdown */
-#subject {
-  background-color: #F1F1F1;
-  color: #3C3C3C;
-  padding: 12px;
-  border: 1px solid #DAF3C5;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  width: 50%;
-}
-
-/* Dropdown slut */
-
-
-.qanda {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 40px;
-}
-
-/* Om os */
-.slide-img img {
-  max-width: 100%;
-}
-
-.section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  flex-basis: 40%;
-  padding-left: 40px;
-  padding-right: 15px;
-}
-
-.text-info h2 {
-  padding-left: 10px;
-  text-align: left;
-}
-
-.text-info h3 {
-  padding-left: 10px;
-  text-align: left;
-}
-
-.text-info p {
-  padding-left: 10px;
-  text-align: left;
-}
-
-.kontakt-om-os {
-  background-color: #BEE392;
-}
-
-.kontakt-iris {
-  background-color: #BEE392;
-  display: flex;
-  padding-top: 40px;
-}
-
-.kontakt-iris img {
-  width: 101px;
-  height: auto;
-}
-
-.h2kontakt {
-  align-items: baseline;
-}
-
-.kontakt-jacob {
-  background-color: #BEE392;
-  display: flex;
-  padding: 20px;
-}
-
-.kontakt-jacob img {
-  width: 101px;
-  height: auto;
-}
-
-.fn-verdensmal {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-
-.fn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.fn-p1 {
-  content-visibility: hidden;
-}
-
-.fn-p2 {
-  content-visibility: visible;
-}
-
-.fn1 img {
-  float: left;
-}
-
-.fn2 img {
-  float: right;
-}
-
-.call {
-  background-color: #DFF2C9;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.call h2 {
-  text-align: left;
-  margin-left: 40px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.call p {
-  text-align: left;
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-
-.knap-om-os {
-  background-color: #C41F97;
-  color: #F1F1F1;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-.knap-om-os:hover {
-  background-color: #C41F97A6;
-}
-
-.partner-række {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.partnere {
-  padding: 5px;
-}
-
-.tak p {
-  text-align: left;
 }
 
 /* Teknologi */
@@ -735,6 +461,279 @@ textarea {
   max-width: 150px;
 }
 
+
+/* Presse */
+.nyhed {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.presse-kasser p {
+  content-visibility: hidden;
+}
+
+.presse-kasser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.presse-kasser h2 {
+  margin: 10px;
+}
+
+.presse-kasser {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.presse-kasse {
+  background-color: #DAF3C5;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.presse-kasser>div {
+  background-color: #DAF3C5;
+  padding: 30px 10px;
+}
+
+.presse-kasse.alt {
+  background-color: #C6E39C;
+}
+
+.knap {
+  background-color: #C41F97;
+  color: #FAF9F6;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-right: 28%;
+  margin-left: 28%;
+}
+
+.knap:hover {
+  background-color: #C41F97A6;
+}
+
+/* Om os */
+.slide-img img {
+  max-width: 100%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 40%;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+.text-info h2 {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.text-info h3 {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.text-info p {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.kontakt-om-os {
+  background-color: #BEE392;
+}
+
+.kontakt-iris {
+  background-color: #BEE392;
+  display: flex;
+  padding-top: 40px;
+}
+
+.kontakt-iris img {
+  width: 101px;
+  height: auto;
+}
+
+.h2kontakt {
+  align-items: baseline;
+}
+
+.kontakt-jacob {
+  background-color: #BEE392;
+  display: flex;
+  padding: 20px;
+}
+
+.kontakt-jacob img {
+  width: 101px;
+  height: auto;
+}
+
+.fn-verdensmal {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.fn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fn-p1 {
+  content-visibility: hidden;
+}
+
+.fn-p2 {
+  content-visibility: visible;
+}
+
+.fn1 img {
+  float: left;
+}
+
+.fn2 img {
+  float: right;
+}
+
+.call {
+  background-color: #DFF2C9;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.call h2 {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.call p {
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.knap-om-os {
+  background-color: #C41F97;
+  color: #FAF9F6;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.knap-om-os:hover {
+  background-color: #C41F97A6;
+}
+
+.partner-række {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnere {
+  padding: 5px;
+}
+
+.tak p {
+  text-align: left;
+}
+
+/* Kontakt os */
+
+.kontakt-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ikon-kasse-kontakt {
+  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ikon-kasse-kontakt img {
+  width: 45px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.kontaktformularen {
+  background-color: #BFE493;
+  padding: 40px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #DAF3C5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #FAF9F6;
+}
+
+/* Dropdown */
+#subject {
+  background-color: #FAF9F6;
+  color: #3C3C3C;
+  padding: 12px;
+  border: 1px solid #DAF3C5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  width: 50%;
+}
+
+/* Dropdown slut */
+
+.qanda {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+}
+
+
 /* footer */
 .footer {
   background-color: #DAF3C5;
@@ -798,9 +797,7 @@ textarea {
 
   p {
     font-size: 1.25rem;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
+
   }
 
 
@@ -812,7 +809,6 @@ textarea {
 
   .some-icons img {
     width: 65px;
-    height: auto;
   }
 
   .some-icons {
@@ -824,12 +820,6 @@ textarea {
   }
 
   /* forside */
-  .banner {
-    padding: 40px;
-    padding-top: 20px;
-    padding-bottom: 60px;
-  }
-
   .knap-forside {
     padding: 20px 44px;
     font-size: 24px;
@@ -853,60 +843,11 @@ textarea {
   }
 
   .anmeldelse {
-    padding-top: 0px;
-    padding-bottom: 0px;
     margin-right: 25%;
     margin-left: 25%;
   }
 
-  /* Presse */
-  /* Presse */
-
-  .presse-kasser h2 {
-    margin: 10px;
-  }
-
-  .presse-kasser {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-  }
-
-  .presse-kasse {
-    background-color: #DAF3C5;
-    padding: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-
-  .presse-kasser>div {
-    background-color: #DAF3C5;
-    padding: 30px 10px;
-  }
-
-  .presse-kasse.alt {
-    background-color: #C6E39C;
-  }
-
-  .knap {
-    background-color: #C41F97;
-    color: #F1F1F1;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 28%;
-    margin-left: 28%;
-  }
-
-  .knap:hover {
-    background-color: #C41F97A6;
-  }
-
   /* Teknologi */
-
   .process {
     height: 2400px;
     padding-top: 60px;
@@ -963,7 +904,6 @@ textarea {
 
   .del-1 {
     display: flex;
-    margin: -100px;
     align-items: center;
     justify-content: center;
     gap: 75px;
@@ -1033,6 +973,51 @@ textarea {
     margin-right: -100px;
     max-width: 300px;
   }
+
+  /* Presse */
+  .presse-kasser h2 {
+    margin: 10px;
+  }
+
+  .presse-kasser {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+
+  .presse-kasse {
+    background-color: #DAF3C5;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .presse-kasser>div {
+    background-color: #DAF3C5;
+    padding: 30px 10px;
+  }
+
+  .presse-kasse.alt {
+    background-color: #C6E39C;
+  }
+
+  .knap {
+    background-color: #C41F97;
+    color: #FAF9F6;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 28%;
+    margin-left: 28%;
+  }
+
+  .knap:hover {
+    background-color: #C41F97A6;
+  }
+
 
   /* Om os */
 
@@ -1137,27 +1122,11 @@ textarea {
 
   /* Presse */
   h1 {
-    font-size: 3.125rem;
     margin-top: 20px;
     margin: 20px;
   }
 
-  h2 {
-    font-size: 2.125rem;
-  }
-
-  h3 {
-    font-size: 1.563rem;
-    margin: 20px;
-  }
-
-  h4 {
-    font-size: 1.563rem;
-    margin: 20px;
-  }
-
   p {
-    font-size: 1.25rem;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
@@ -1257,6 +1226,37 @@ textarea {
     height: auto;
   }
 
+  /* Teknologi */
+  .info-text h1 {
+    text-align: left;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .info-text p {
+    margin-right: 125px;
+    margin-left: 125px;
+    text-align: left;
+  }
+
+  .facts h2 {
+    text-align: left;
+    margin-left: 125px;
+  }
+
+  .facts p {
+    text-align: left;
+    margin-left: 125px;
+  }
+
+  .facts {
+    margin-right: 125px;
+
+    padding-bottom: 60px;
+  }
+
   /*presse*/
   .nyhed h1 {
     text-align: left;
@@ -1306,7 +1306,7 @@ textarea {
 
   .knap {
     background-color: #C41F97;
-    color: #F1F1F1;
+    color: #FAF9F6;
     padding: 12px 30px;
     border: none;
     border-radius: 4px;
@@ -1365,15 +1365,15 @@ textarea {
     margin-top: 40px;
   }
 
-  .qanda h2{
+  .qanda h2 {
     margin-left: 125px;
   }
 
-  .qanda h3{
+  .qanda h3 {
     margin-left: 125px;
   }
 
-  .qanda p{
+  .qanda p {
     margin-left: 125px;
   }
 
@@ -1487,38 +1487,6 @@ textarea {
     margin-left: 125px;
   }
 
-  /* Teknologi */
-
-  .info-text h1 {
-    text-align: left;
-    margin-right: 125px;
-    margin-left: 125px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-  }
-
-  .info-text p {
-    margin-right: 125px;
-    margin-left: 125px;
-    text-align: left;
-  }
-
-  .facts h2 {
-    text-align: left;
-    margin-left: 125px;
-  }
-
-  .facts p {
-    text-align: left;
-    margin-left: 125px;
-  }
-
-  .facts {
-    margin-right: 125px;
-
-    padding-bottom: 60px;
-  }
-
   /* footer */
   .footer-text {
     padding-left: 0;
@@ -1531,7 +1499,7 @@ textarea {
     margin-left: 0;
   }
 
-  .ikon-kasse{
+  .ikon-kasse {
     padding-right: 0;
   }
 
@@ -1547,7 +1515,4 @@ textarea {
     padding: 20px;
     padding-right: 0;
   }
-
-
-
 }
