@@ -49,7 +49,7 @@ p {
 }
 
 .menu-container {
-  width: 100%;
+  width: auto;
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -60,14 +60,14 @@ p {
   padding-top: 18px;
   padding-left: 20px;
   padding-right: 50px;
-  width: 368px;
+  width: 400px;
   height: auto;
+  max-height: 600px;
 }
 
 .menu-h2 {
   font-size: 1.125rem;
   color: #3C3C3C;
-  padding-top: -10px;
 }
 
 .menu-h2:hover {
@@ -142,10 +142,6 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-}
-
-.logo {
-  max-height: 600px;
 }
 
 /* burger menu til mobil og tablet */
@@ -275,6 +271,11 @@ nav {
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 60px;
+}
+
+.trustpilot-img img {
+  width: 90px;
+  height: auto;
 }
 
 .situationstegn1 {
@@ -800,7 +801,6 @@ textarea {
 
   }
 
-
   /* burger menu til mobil og tablet */
   .topnav #myLinks {
     display: none;
@@ -840,6 +840,16 @@ textarea {
 
   .system-stor-img img {
     content-visibility: hidden;
+  }
+
+  .trustpilot {
+    height: 200px;
+  }
+
+  .trustpilot-img img {
+    width: 120px;
+    height: auto;
+
   }
 
   .anmeldelse {
@@ -1018,9 +1028,7 @@ textarea {
     background-color: #C41F97A6;
   }
 
-
   /* Om os */
-
   .tekst-om-os {
     margin: 40px;
   }
@@ -1073,9 +1081,7 @@ textarea {
     margin-left: 40px;
   }
 
-
   /* footer */
-
   .ikon-kasse {
     display: flex;
     float: right;
@@ -1120,7 +1126,6 @@ textarea {
 @media only screen and (min-width: 1024px) {
   /* For desktop: */
 
-  /* Presse */
   h1 {
     margin-top: 20px;
     margin: 20px;
