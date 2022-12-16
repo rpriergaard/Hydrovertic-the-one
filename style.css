@@ -214,6 +214,8 @@ nav {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-right: 28%;
+  margin-left: 28%;
 }
 
 .knap-forside:hover {
