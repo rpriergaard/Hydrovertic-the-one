@@ -653,7 +653,7 @@ nav {
   background-color: #C41F97A6;
 }
 
-.partner-række {
+.partner-rakke {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1068,7 +1068,7 @@ textarea {
     font-size: 20px;
   }
 
-  .partner-række {
+  .partner-rakke {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
