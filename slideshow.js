@@ -1,3 +1,5 @@
+
+// Det er min variale som sætter mit slideindex til 0 og hvis min slide længede bliver længere end slide index, vil den starte forfra
 let slideIndex = 0;
 showSlides();
 
@@ -22,5 +24,5 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 
-  setTimeout(showSlides, 3000); 
+  setTimeout(showSlides, 3000);
 }
