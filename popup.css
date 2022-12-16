@@ -43,8 +43,8 @@
   margin-top: 80px;
   padding: 25px;
   border: 1px solid #3C3C3C;
-  width: 40%;
-  height: 40%;
+  width: 80%;
+  height: 50%;
 }
 
 .modal-content h2 {
@@ -71,3 +71,22 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media only screen and (min-width: 768px) {
+
+  /* For tablets: */
+  .modal-content{
+    width: 75%;
+    height: 60%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  /* For desktop: */
+  .modal-content{
+    width: 40%;
+    height: 40%;
+  }
+}
+
