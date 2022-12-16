@@ -1,3 +1,5 @@
+
+// Det er min variale som sætter mit slideindex til 0 og hvis min slide længede bliver længere end slide index, vil den starte forfra
 let slideIndex = 0;
 showSlides();
 //funktionen der viser slidesne
@@ -22,6 +24,6 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
-  //timeren (event)
+  //timeren (event) som skifter hvert 3 sekundt
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
