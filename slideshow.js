@@ -5,7 +5,7 @@ showSlides();
 //funktionen der viser slidesne
 function showSlides() {
   let i;
-  //et array der går ind og vælger/finder alle class's med navnet "mySlides" og "dots" og bruger dem
+  //et array der går ind og vælger/finder alle objekter/class's med navnet "mySlides" og "dots" og bruger dem
   //via en "DOM" som henter dem fra HTML
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
