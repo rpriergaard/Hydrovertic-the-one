@@ -610,10 +610,14 @@ nav {
 
 .fn1 img {
   float: left;
+  width: 125px;
+  height: auto;
 }
 
 .fn2 img {
   float: right;
+  width: 125px;
+  height: auto;
 }
 
 .call {
