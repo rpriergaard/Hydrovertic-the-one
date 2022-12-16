@@ -8,7 +8,3 @@ for (var i = 0; i < option.length; i++) {
   el.value = opt;
   select.appendChild(el);
 }
-
-<select id = "subject" >
-<option> Vælg emne </option> 
-</select>
